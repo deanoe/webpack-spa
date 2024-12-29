@@ -11,6 +11,6 @@ app.get('/', function (req, res) {
     res.send(contentFromHtmlFile);
 });
 
-app.listen(3001, function () {
+app.listen(3002, function () {
     console.log('Application is running on http://localhost:3001/');
 });
